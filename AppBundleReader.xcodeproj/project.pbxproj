@@ -13,6 +13,7 @@
 		05966F7A1FA307E2005012B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05966F781FA307E2005012B2 /* Main.storyboard */; };
 		05966F7C1FA307E2005012B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05966F7B1FA307E2005012B2 /* Assets.xcassets */; };
 		05966F7F1FA307E2005012B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05966F7D1FA307E2005012B2 /* LaunchScreen.storyboard */; };
+		B9F23E1F20097E720031933B /* RoboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F23E1E20097E720031933B /* RoboModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		05966F7B1FA307E2005012B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05966F7E1FA307E2005012B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05966F801FA307E2005012B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F23E1E20097E720031933B /* RoboModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				051CECB01FA7135D00FB01FA /* robo-profiles.json */,
 				05966F741FA307E2005012B2 /* AppDelegate.swift */,
 				05966F761FA307E2005012B2 /* ViewController.swift */,
+				B9F23E1E20097E720031933B /* RoboModel.swift */,
 				05966F781FA307E2005012B2 /* Main.storyboard */,
 				05966F7B1FA307E2005012B2 /* Assets.xcassets */,
 				05966F7D1FA307E2005012B2 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F23E1F20097E720031933B /* RoboModel.swift in Sources */,
 				05966F771FA307E2005012B2 /* ViewController.swift in Sources */,
 				05966F751FA307E2005012B2 /* AppDelegate.swift in Sources */,
 			);
