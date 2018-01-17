@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		051CECB11FA7135D00FB01FA /* robo-profiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 051CECB01FA7135D00FB01FA /* robo-profiles.json */; };
 		05966F751FA307E2005012B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05966F741FA307E2005012B2 /* AppDelegate.swift */; };
-		05966F771FA307E2005012B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05966F761FA307E2005012B2 /* ViewController.swift */; };
+		05966F771FA307E2005012B2 /* RobotListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05966F761FA307E2005012B2 /* RobotListVC.swift */; };
 		05966F7A1FA307E2005012B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05966F781FA307E2005012B2 /* Main.storyboard */; };
 		05966F7C1FA307E2005012B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05966F7B1FA307E2005012B2 /* Assets.xcassets */; };
 		05966F7F1FA307E2005012B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05966F7D1FA307E2005012B2 /* LaunchScreen.storyboard */; };
-		B9F23E1F20097E720031933B /* RoboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F23E1E20097E720031933B /* RoboModel.swift */; };
+		B968C51D200ECA2300D2C78A /* RobotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B968C51C200ECA2300D2C78A /* RobotDetailView.swift */; };
+		B9F23E1F20097E720031933B /* RobotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F23E1E20097E720031933B /* RobotModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		051CECB01FA7135D00FB01FA /* robo-profiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "robo-profiles.json"; sourceTree = SOURCE_ROOT; };
 		05966F711FA307E2005012B2 /* AppBundleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBundleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05966F741FA307E2005012B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05966F761FA307E2005012B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05966F761FA307E2005012B2 /* RobotListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotListVC.swift; sourceTree = "<group>"; };
 		05966F791FA307E2005012B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05966F7B1FA307E2005012B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05966F7E1FA307E2005012B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05966F801FA307E2005012B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9F23E1E20097E720031933B /* RoboModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboModel.swift; sourceTree = "<group>"; };
+		B968C51C200ECA2300D2C78A /* RobotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDetailView.swift; sourceTree = "<group>"; };
+		B9F23E1E20097E720031933B /* RobotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,11 @@
 			children = (
 				051CECB01FA7135D00FB01FA /* robo-profiles.json */,
 				05966F741FA307E2005012B2 /* AppDelegate.swift */,
-				05966F761FA307E2005012B2 /* ViewController.swift */,
-				B9F23E1E20097E720031933B /* RoboModel.swift */,
+				05966F761FA307E2005012B2 /* RobotListVC.swift */,
+				B968C51C200ECA2300D2C78A /* RobotDetailView.swift */,
 				05966F781FA307E2005012B2 /* Main.storyboard */,
 				05966F7B1FA307E2005012B2 /* Assets.xcassets */,
+				B9F23E1E20097E720031933B /* RobotModel.swift */,
 				05966F7D1FA307E2005012B2 /* LaunchScreen.storyboard */,
 				05966F801FA307E2005012B2 /* Info.plist */,
 			);
@@ -143,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9F23E1F20097E720031933B /* RoboModel.swift in Sources */,
-				05966F771FA307E2005012B2 /* ViewController.swift in Sources */,
+				B968C51D200ECA2300D2C78A /* RobotDetailView.swift in Sources */,
+				B9F23E1F20097E720031933B /* RobotModel.swift in Sources */,
+				05966F771FA307E2005012B2 /* RobotListVC.swift in Sources */,
 				05966F751FA307E2005012B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
